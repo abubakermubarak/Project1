@@ -11,4 +11,4 @@ SQLALCHEMY_ECHO = True
 
 
 # TODO IMPLEMENT DATABASE URL
-SQLALCHEMY_DATABASE_URI = 'postgresql://postgres:b3ac8nhx2013@localhost:5432/project1'
+SQLALCHEMY_DATABASE_URI = 'postgresql://postgres:@localhost:5432/project1'
