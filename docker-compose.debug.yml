@@ -1,0 +1,11 @@
+version: '3.4'
+
+services:
+  cd0046sqlanddatamodelingfortheweb:
+    image: cd0046sqlanddatamodelingfortheweb
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    command: ["sh", "-c", "pip install debugpy -t /tmp && python /tmp/debugpy --wait-for-client --listen 0.0.0.0:5678 -m docker_hello_world "]
+    ports:
+      - 5678:5678

@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  cd0046sqlanddatamodelingfortheweb:
+    image: cd0046sqlanddatamodelingfortheweb
+    build:
+      context: .
+      dockerfile: ./Dockerfile
